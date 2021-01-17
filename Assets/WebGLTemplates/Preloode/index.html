@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Preloode Slot</title>
+    <script type="text/javascript" src="Build/UnityLoader.js"></script>
+    <script type="text/javascript">
+        UnityLoader.compatibilityCheck = function (e, t, r) {
+
+            t();
+
+        }
+
+        UnityLoader.instantiate("container", "Build/WebGL.json");
+    </script>
+    <link rel="stylesheet" href="Assets/Css/global.css" />
+    <script type="text/javascript" src="Assets/Javascript/global.js"></script>
+</head>
+<body>
+<div id="container"></div>
+</body>
+</html>
